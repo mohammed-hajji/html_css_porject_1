@@ -1,0 +1,62 @@
+/* test  section */
+
+.test {
+    position: relative;
+    background-image: url(../imges/andrea-cau-nV7GJmSq3zc-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    height: 400px;
+
+}
+.test .overlay {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.test-content {
+    overflow: hidden;
+    padding: 120px 0px;
+    width: 90%;
+    margin: auto;
+}
+
+.test-item {
+    width: 50%;
+    float: left;
+    color: #fff;
+
+}
+
+.test-item-top {
+    padding: 10px 2px 30px 100px;
+    position: relative;
+}
+
+.test-item-top img {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    border-radius: 50%;
+    width: 75px;
+}
+
+.test-item-top h2 {
+    margin-bottom: 10px 0;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-weight: 700;
+    word-spacing: 0.5px;
+    
+
+}
+
+.test-item-top span {
+    color: darkcyan;
+    text-transform: uppercase;
+}
+
+.test-item-desc {
+    line-height: 1.5;
+    font-size: 16px;
+    width: 85%;
+
+}

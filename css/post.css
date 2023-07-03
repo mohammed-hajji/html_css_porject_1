@@ -1,0 +1,331 @@
+.post .container {
+    width: 55%;
+}
+
+
+
+.header .container {
+    width: 60%;
+}
+
+.post-content {
+    overflow: hidden;
+}
+
+.post-header {
+    width: 100%;
+}
+
+
+
+.post-nav {
+    width: 30%;
+    float: left;
+}
+
+
+
+.post-header-title {
+    width: 40%;
+    float: left;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 100px ;
+    padding-top: 20px;
+    
+
+}
+
+.post-header-list {
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+
+.post-header-list li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 5px;
+    font-size: 18px;
+    color: #899;
+    text-transform: capitalize;
+    margin-top: 8px ;
+
+}
+
+.post-header-list li a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.post-header-list li a:hover {
+    color: cadetblue;
+    transition: 0.5s;
+}
+
+
+.post-info-img img {
+    width: 100%;
+}
+
+
+
+.post-info-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+
+}
+
+.post-info-list li i {
+    color: darkcyan;
+    font-size: 12px;
+}
+
+.post-info-title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.post-info-desc {
+    font-size: 16px;
+    color: #899;
+    line-height: 1.7;
+    text-transform: capitalize;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.post-tags {
+    padding: 50px 0px;
+}
+
+.post-tags-title {
+    float: left;
+    padding-right: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.post-tags-list {
+    float: left;
+
+}
+
+.post-tags-list li{
+    display: inline-block;
+    margin: -2px 0px ;
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color: #e8e8e8;
+    padding: 5px 15px;
+    
+}
+
+.post-tags-list li i {
+    color: darkcyan;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.post-tags-list li:hover {
+    background-color: darkcyan;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.post-tags-list li:hover i {
+    color: #fff;
+    transition: 0.2s;
+}
+
+.post-comment {
+    margin-top: 20px;
+    width: 95%;
+    border: 1px solid #e8e8e9;
+    border-radius: 4px;
+    padding: 20px 20px;
+
+}
+
+.post-comment h3 {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.post-comment ul li {
+    display: inline-block;
+    float: right;
+    padding: 0px 5px;
+}
+
+.post-comment ul li i {
+    background-color: darkcyan;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.post-comment p {
+    padding-top: 70px;
+    color: #899;
+    font-size: 17px;
+    line-height: 1.5;
+    word-spacing: 1px;
+}
+
+.post-comment ul li i:hover {
+    color: cadetblue;
+    transition: 0.3s;
+}
+
+.post-pop h3 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+.pop-list  {
+    display: inline-block;
+    width: 30%;
+}
+
+.pop-list a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+.pop-list a:hover {
+    color: darkcyan;
+}
+
+.pop-list h5 {
+    padding: 10px 0px;
+    color: darkcyan;
+    font-size: 16px;
+}
+
+.post-desc {
+    border: 1px solid #e8e8e8;
+    width: 90%;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.post-desc h4 {
+    padding: 30px 0px;
+    font-size: 25px;
+}
+
+.post-desc .post-comment {
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    padding: 10px ;
+}
+
+.post-desc .post-comment span {
+    font-size: 14px;
+    color: #999;
+    text-transform: uppercase;
+    padding: 0px 20px;
+
+}
+
+.post-desc .post-comment a {
+    float: right;
+    text-decoration: none;
+    color: darkcyan;
+    padding: 5px;
+    text-transform: uppercase;
+    
+}
+
+.post-desc .post-comment a i {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.post-desc .post-comment.mg {
+    border-color: darkcyan;
+}
+
+
+.post-content .form-info .form-two {
+    width: 80%;
+}
+
+
+.post-form-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+.post-form-one input {
+    width: 45%;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    outline-color: #333;
+    border-bottom: 2px solid darkcyan;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+
+.post-form-two input {
+    width: 90.5%;
+    height: 70px;
+    border: none;
+    padding: 10px;
+    outline: invert;
+    font-size: 15px;
+    border-bottom: 2px solid darkcyan;
+    border-radius: 2px;
+    outline-color: #333;
+    transition: 0.5s;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.post-form button {
+    border: none;
+    background-color: darkcyan;
+    width: 120px ;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.post-form button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.post-form button:hover {
+    background-color: cadetblue;
+    transition: 0.5s;
+}

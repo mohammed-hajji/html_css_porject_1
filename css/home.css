@@ -1,0 +1,53 @@
+
+/* home section */ 
+
+.home {
+    height: 100vh;
+    background-image: url(../imges/pexels-hristo-sahatchiev-821357.jpg);
+    background-position: center;
+    background-size: cover; /* css 3 */
+    position: relative;
+}
+
+.home-content {
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.home .title {
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    word-spacing: 4px
+}
+
+.home .home-desc {
+    color: #fff;
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.home .btn {
+    min-width: 160px;
+    padding: 20px 0px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.home .btn-start {
+    margin-right: 10px;
+    background-color: #ECF0F1;
+}
+
+.home .btn-learn {
+    background-color: darkcyan;
+    color: #fff;
+}
